@@ -1,0 +1,73 @@
+/* le style de votre projet */
+
+
+body {
+    margin: 0px;
+    font-family: verdana;
+    font-size: 10pt;
+    background-color: #091c3a;
+    color: #3f1569;
+    background-image: url(images/bg_page_03.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+  
+}
+
+#wrapper {
+    border : 1px solid #0f0;
+    width: 950px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 12px;
+}
+
+#titre-principal {
+
+    text-align: center;
+    border: 1px solid #091c3a;
+}
+#titre-principal h1{
+    font-family: 'New Rocker', cursive;
+    font-size : 4em;
+    text-shadow: 5px 5px 10px rgba(9,28,58);
+}
+
+#menu-sup {
+
+   /* border : 1px solid #080; */
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+}
+
+#menu-sup ul{ 
+    margin : 0px;
+}
+
+#menu-sup ul li {
+    display: inline;
+    margin: 8px 20px;
+    background-color : #390045;          /*#e78009;*/
+    padding : 5px 10px;
+    border-radius: 18px;
+    border: 1px solid #999
+}
+#menu-sup ul li a:hover {
+    background-color: #e78009
+    
+}
+#menu-sup ul li a {
+    text-decoration: none;
+    color: #fff
+
+}
+
+#contenu-texte {
+
+    border : 1px solid #390045;
+}
+
+#footer {
+    text-align: center;
+    font-size: 0.8em;
+    color: #9390045
+}
